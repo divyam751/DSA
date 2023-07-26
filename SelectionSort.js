@@ -1,4 +1,4 @@
-//  Selection sort problem that takes user input array and print sorted array.
+//  Selection sort problem print sorted array.
 
 let arr = [5, 2, 1, 3, 6, 4, 8, 7, 10, 9];
 

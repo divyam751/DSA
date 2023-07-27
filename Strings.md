@@ -23,7 +23,7 @@
 
 StringBuilder is a class in Java that provides a mutable sequence of characters. It is used to efficiently manipulate strings when there is a need for frequent modifications, such as concatenations, insertions, deletions, and replacements. Unlike the String class, which is immutable, StringBuilder allows you to modify the content of the underlying character array without creating a new object each time.
 
-- StringBuilder sb = new StringBuilder() **_By Default 16 Characters _**
+- StringBuilder sb = new StringBuilder(); **_By Default 16 Characters_**
 - String res = sb.toString();
 
 # # Operations:

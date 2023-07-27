@@ -1,8 +1,5 @@
 ====================== Stack Data Structure ======================
 ---
-
-## Stack Data Structure
-
 A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. It is a collection of elements in which elements are added and removed from the same end, known as the top of the stack. Common operations on a stack include push (adding an element) and pop (removing the top element).
 
 ### Common Operations on a Stack

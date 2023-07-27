@@ -1,5 +1,4 @@
-Sure! Below is the content written in a `stack.md` file:
-
+================================================== Stack Data Structure ==================================================
 ---
 
 ## Stack Data Structure

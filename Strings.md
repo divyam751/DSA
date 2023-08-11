@@ -11,7 +11,7 @@
 - charAt() => char ch = str.charAt(0);
 - substring() => str.substring(4,9);
 - toLowerCase() => str.toLowerCase();
-- toUpperCase() => str.UpperCase();
+- toUpperCase() => str.toUpperCase();
 - conversion => int val = Interger.parseInt("42"); **_Convert String to integer Value_**
 
 - equals() => str1.equals(str2); **_Return Boolean(True/False)_**

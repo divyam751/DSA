@@ -1,4 +1,5 @@
 //  Selection sort problem print sorted array.
+// select minimum value index and then swap with first
 
 let arr = [5, 2, 1, 3, 6, 4, 8, 7, 10, 9];
 

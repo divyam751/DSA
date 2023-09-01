@@ -39,7 +39,14 @@ Output
 Output consists of a single line of integers
 
 
+Sample input 1
 
+5
+4 5 3 7 1
+
+Sample output 1
+
+4 2 0 1 3
 
 
 ```

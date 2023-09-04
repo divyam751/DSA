@@ -2,6 +2,11 @@
 
 A **Queue** is a linear data structure that follows the First-In-First-Out (FIFO) principle, meaning that the element that is inserted first will be the one to be removed first. In Java, the `Queue` interface is available in the `java.util` package and provides methods for implementing a queue.
 
+```java
+ Queue<String> queue = new LinkedList<>();
+
+```
+
 ### Queue Interface
 
 The Java `Queue` interface is part of the `java.util` package and defines the methods that a Queue implementation must implement. Key methods in the `Queue` interface include:

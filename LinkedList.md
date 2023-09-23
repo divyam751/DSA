@@ -60,3 +60,32 @@ public void addLast(String data){
     currentNode.next = newNode;
 }
 ```
+
+# Reverse a linked list
+
+```java
+class Solution{
+  public static Node reverseLinkedList(Node a){
+
+      if(a==null || a.next==null){
+          return a;
+      }
+
+    Node prv=a;
+    Node curr=a.next;
+
+    while(curr!=null){
+       Node next = curr.next;
+        curr.next = prv;
+        // update
+        prv=curr;
+        curr=next;
+    }
+    a.next=null;
+    a = prv;
+
+    return a;
+
+  }
+}
+```

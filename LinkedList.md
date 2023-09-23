@@ -89,3 +89,47 @@ class Solution{
   }
 }
 ```
+
+# Middle nod of a linked list
+
+```java
+
+class Solution{
+  public int middleNode(Node head){
+    Node fast = head;
+    Node slow = head;
+
+    while(fast!=null && fast.next!=null){
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    return slow.data;
+  }
+}
+```
+
+# Delete a middle node of a linked list
+
+```java
+
+class Solution{
+  public static Node deleteNode(Node head){
+     //write your code here
+     Node fast = head;
+     Node slow = head;
+     Node prv = null;
+    //  if(slow.next==null){
+    //      return null;
+    //  }
+
+     while(fast!=null && fast.next!=null){
+         prv = slow;
+         slow = slow.next;
+         fast = fast.next.next;
+     }
+     prv.next=slow.next;
+
+     return head;
+  }
+}
+```

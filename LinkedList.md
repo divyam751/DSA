@@ -90,6 +90,26 @@ class Solution{
 }
 ```
 
+## recursive
+
+```java
+
+class Solution{
+  public static Node reverseLinkedList(Node a){
+
+      if(a==null || a.next==null){
+          return a;
+      }
+    Node newHead = reverseLinkedList(a.next);
+    a.next.next = a;
+    a.next = null;
+
+    return newHead;
+
+  }
+}
+```
+
 # Middle nod of a linked list
 
 ```java

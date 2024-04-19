@@ -3,6 +3,11 @@
 - In java string is a sequence of characters, represnted by the String Class, they are immutable means value can not be changed once String is created
 
 - - String str = "Hello World" ;
+ 
+# Convert String to Array
+
+- str.split(" "); // that will convert str to array
+- str.toCharArray(); // that will convert str to character array
 
 # Operations
 

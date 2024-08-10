@@ -43,3 +43,38 @@ StringBuilder is a class in Java that provides a mutable sequence of characters.
 - substring() => sb.substring(3,7);
 
 # **_StringBuilder is not thread-safe. If you require thread safety, you can use the StringBuffer class, which is similar to StringBuilder but provides synchronized methods for thread-safe operations. However, in most cases, using StringBuilder is sufficient and recommended for better performance when working with mutable strings._**
+
+# # Remove special characters from the string
+- JavaScript
+```JavaScript
+function removeSpecialCharacters(str) {
+    return str.replace(/[^a-zA-Z0-9]/g, '');
+}
+
+// Example usage
+const input = "Hello, World! 123";
+const result = removeSpecialCharacters(input);
+console.log(result); // Output: HelloWorld123
+
+```
+
+- Java
+```java
+public class Solution {
+
+    public String removeSpecialCharacters(String s) {
+        // Replace all non-alphanumeric characters with an empty string
+        return s.replaceAll("[^a-zA-Z0-9]", "");
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Example usage
+        String input = "Hello, World! 123";
+        String result = solution.removeSpecialCharacters(input);
+        System.out.println(result); // Output: HelloWorld123
+    }
+}
+
+```
